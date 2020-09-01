@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+html, body {
+  height: 100%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -43,20 +47,26 @@
   object-fit: cover;
 }
 
-#mainDiv {
+.mainDiv {
   background: #4641a3;
-  animation: bgColor 20s infinite;
+  animation: bgColor 45s infinite;
 }
 
 @keyframes bgColor {
+  0% {
+    background-color: #305d75
+  }
   25% {
     background-color: #4641a3;
   }
   50% {
     background-color: #a34199;
   }
-  100% {
+  75% {
     background-color: #4641a3;
+  }
+  100% {
+    background-color: #305d75;
   }
 }
 

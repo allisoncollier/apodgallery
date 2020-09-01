@@ -84,14 +84,14 @@ class App extends Component {
       api_call = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&date=${astroYear}-${astroMonth}-${astroDay}`);
       dayCounter--;
     }
-    console.log(astroObjArr);
+    //console.log(astroObjArr);
     this.setState({astroInfo: astroObjArr});
   }
 
   render() {
     
     return (
-      <div id="mainDiv">
+      <div className="mainDiv">
         <APODHeading />
         
         <APODCard getAPOD={this.getAPOD}/>
