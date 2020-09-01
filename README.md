@@ -1,6 +1,5 @@
----
-permalink: /index.html
----
+Deployed with Netlify
+Check it out here: https://flamboyant-ride-2ab0fa.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
