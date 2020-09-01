@@ -1,4 +1,4 @@
-Deployed with Netlify
+Deployed with Netlify.<br />
 Check it out here: https://flamboyant-ride-2ab0fa.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
